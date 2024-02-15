@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+	
+    <item
+        android:id="@+id/menu_settings"
+        android:title="Settings"
+		app:showAsAction="never"/>
+	
+	<item
+        android:id="@+id/menu_font"
+        android:title="Font"
+		app:showAsAction="never"/>
+	
+	<item
+        android:id="@+id/menu_downloads"
+        android:title="Downloads"
+		app:showAsAction="never"/>
+	
+	<item
+        android:id="@+id/menu_source"
+        android:title="View source(F12)"
+		app:showAsAction="never"/>
+	
+	<item
+        android:id="@+id/menu_save"
+        android:title="Save page"
+		app:showAsAction="never"/>
+	
+	<item
+        android:id="@+id/menu_history"
+        android:title="History"
+		app:showAsAction="never"/>
+	
+	<item
+        android:id="@+id/menu_info"
+        android:title="Page info"
+		app:showAsAction="never"/>
+	
+</menu>

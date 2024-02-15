@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+	android:orientation="horizontal"
+	android:padding="6dip">
+	<TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TableRow>
+			<ImageView 
+				android:layout_width="40dp"
+				android:layout_height="40dp"
+				android:layout_gravity="left"
+				android:padding="2dip"
+				android:id="@+id/fileicon"/>
+			<TextView
+				android:textColor="#000000"
+				android:id="@+id/filename"
+				android:textSize="14sp"
+				android:textStyle="bold"
+				android:padding="2dip"
+				android:gravity="left|bottom"
+				android:layout_gravity="left|bottom"/>
+
+		</TableRow>
+
+	</TableLayout>
+	
+</LinearLayout>
